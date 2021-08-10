@@ -1433,6 +1433,7 @@ type LoadBalancerBackend struct {
 	LoadBalancerID          *string    `json:"loadbalancer_id" name:"loadbalancer_id"`
 	LoadBalancerListenerID  *string    `json:"loadbalancer_listener_id" name:"loadbalancer_listener_id"`
 	LoadBalancerPolicyID    *string    `json:"loadbalancer_policy_id" name:"loadbalancer_policy_id"`
+	PrivateIp               *string    `json:"private_ip"`
 	Port                    *int       `json:"port" name:"port"`
 	ResourceID              *string    `json:"resource_id" name:"resource_id"`
 	Status                  *string    `json:"status" name:"status"`
